@@ -1,0 +1,11 @@
+@mixin center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+$primary: #f2f2f2;
